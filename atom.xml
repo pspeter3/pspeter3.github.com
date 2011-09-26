@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title>My Octopress Blog</title>
+  <title>pspeter3</title>
   <link href="http://pspeter3.github.com/atom.xml" rel="self"/>
   <link href="http://pspeter3.github.com/"/>
-  <updated>2011-09-26T11:54:45-05:00</updated>
+  <updated>2011-09-26T12:04:32-05:00</updated>
   <id>http://pspeter3.github.com/</id>
   <author>
-    <name>Your Name</name>
+    <name>Phips Peter</name>
     
   </author>
 
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://pspeter3.github.com/blog/2011/09/26/hello-world/"/>
+    <updated>2011-09-26T12:01:00-05:00</updated>
+    <id>http://pspeter3.github.com/blog/2011/09/26/hello-world</id>
+    <content type="html">&lt;p&gt;I figured starting with a Hello World post seemed fitting since I&amp;#8217;m using
+Octopress to blog this.&lt;/p&gt;
+</content>
+  </entry>
   
 </feed>
