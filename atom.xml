@@ -4,7 +4,7 @@
   <title>pspeter3</title>
   <link href="http://pspeter3.github.com/atom.xml" rel="self"/>
   <link href="http://pspeter3.github.com/"/>
-  <updated>2011-09-26T16:27:25-05:00</updated>
+  <updated>2011-09-26T16:29:54-05:00</updated>
   <id>http://pspeter3.github.com/</id>
   <author>
     <name>Phips Peter</name>
@@ -17,11 +17,12 @@
     <link href="http://pspeter3.github.com/blog/2011/09/26/playing-minecraft-with-an-xbox360-controller/"/>
     <updated>2011-09-26T12:05:00-05:00</updated>
     <id>http://pspeter3.github.com/blog/2011/09/26/playing-minecraft-with-an-xbox360-controller</id>
-    <content type="html">&lt;p&gt;So my friend Lorne bought me Minecraft for my birthday. I have a laptop and
-don&amp;#8217;t own a USB mouse which makes playing slightly difficult. I&amp;#8217;ve never been
-a huge fan of the mouse and keyboard for games, which I know is basically
-heresy, so I decided to setup my computer to use an Xbox 360 controller. I&amp;#8217;m
-running Elementary OS Jupiter which is a derivative of Ubuntu.&lt;/p&gt;
+    <content type="html">&lt;p&gt;So I got Minecraft for my birthday, which started this whole adventure.
+I have a laptop and don&amp;#8217;t own a USB mouse which makes playing slightly
+difficult. I&amp;#8217;ve never been a huge fan of the mouse and keyboard for games,
+which I know is basically heresy, so I decided to setup my computer to use
+an Xbox 360 controller. I&amp;#8217;m running Elementary OS Jupiter which is a
+derivative of Ubuntu.&lt;/p&gt;
 
 &lt;h2&gt;Resources&lt;/h2&gt;
 
