@@ -4,13 +4,145 @@
   <title>pspeter3</title>
   <link href="http://pspeter3.github.com/atom.xml" rel="self"/>
   <link href="http://pspeter3.github.com/"/>
-  <updated>2011-09-26T12:04:32-05:00</updated>
+  <updated>2011-09-26T12:20:05-05:00</updated>
   <id>http://pspeter3.github.com/</id>
   <author>
     <name>Phips Peter</name>
     
   </author>
 
+  
+  <entry>
+    <title>Playing Minecraft With an Xbox360 Controller</title>
+    <link href="http://pspeter3.github.com/blog/2011/09/26/playing-minecraft-with-an-xbox360-controller/"/>
+    <updated>2011-09-26T12:05:00-05:00</updated>
+    <id>http://pspeter3.github.com/blog/2011/09/26/playing-minecraft-with-an-xbox360-controller</id>
+    <content type="html">&lt;p&gt;So my friend Lorne bought me Minecraft for my birthday. I have a laptop and
+don&amp;#8217;t own a USB mouse which makes playing slightly difficult. I&amp;#8217;ve never been
+a huge fan of the mouse and keyboard for games, which I know is basically
+heresy, so I decided to setup my computer to use an Xbox 360 controller. I&amp;#8217;m
+running Elementary OS Jupiter which is a derivative of Ubuntu.&lt;/p&gt;
+
+&lt;h2&gt;Resources&lt;/h2&gt;
+
+&lt;p&gt;In order to make this work, you&amp;#8217;ll need a few things:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;An official USB Xbox 360 controller. Now I&amp;#8217;m not sure if you absolutely need
+an official Xbox 360 controller but I&amp;#8217;ve had issues in the past with 3rd
+party controllers so I would highly recommend it.&lt;/li&gt;
+&lt;li&gt;Xboxdrv, &lt;a href=&quot;http://pingus.seul.org/~grumbel/xboxdrv/xboxdrv.html&quot;&gt;http://pingus.seul.org/~grumbel/xboxdrv/xboxdrv.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;An Xboxdrv configuration file, conveniently displayed below&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;Minecraft.xboxdrv&lt;/h2&gt;
+
+&lt;p&gt;The following xboxdrv file will set up your Xbox controller&lt;/p&gt;
+
+&lt;figure class=&#8217;code&#8217;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre class=&quot;line-numbers&quot;&gt;&lt;span class=&#8217;line-number&#8217;&gt;1&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;2&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;3&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;4&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;5&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;6&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;7&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;8&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;9&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;10&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;11&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;12&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;13&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;14&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;15&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;16&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;17&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;18&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;19&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;20&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;21&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;22&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;23&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;24&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;25&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;26&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;27&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;28&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;29&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;30&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;31&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;32&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;33&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;34&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;35&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;36&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;37&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;38&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;39&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;40&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;41&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#8217;code&#8217;&gt;&lt;pre&gt;&lt;code class=&#8221;&gt;&lt;span class=&#8217;line&#8217;&gt;[xboxdrv]
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;ui-clear=true
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;trigger-as-button = true
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;[ui-axismap]
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;x1=KEY_A:KEY_D
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;y1=KEY_W:KEY_S
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;x2^dead:4000 = REL_X:750:-1
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;y2^dead:4000 = REL_Y:750:-1
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;# trigger^invert = rel-repeat:REL_WHEEL:1:50
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;[ui-buttonmap]
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;a = KEY_SPACE
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;b = KEY_LEFTSHIFT
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;x = KEY_Q
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;y = KEY_T
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;lt = BTN_RIGHT
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;rt = BTN_LEFT
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;rb = KEY_LEFTSHIFT
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;lb = KEY_TAB
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;# tl = KEY_BACKSPACE
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;# tr = KEY_SPACE
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;[ui-buttonmap]
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;du = rel:REL_WHEEL:-1:500
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;dr = rel:REL_WHEEL:-1:500
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;dd = rel:REL_WHEEL:1:500
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;dl = rel:REL_WHEEL:1:500
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;# lt = KEY_VOLUMEDOWN
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;# rt = KEY_VOLUMEUP
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;[ui-buttonmap]
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;start = KEY_E
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;back  = KEY_ESC
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;# guide = KEY_ESC
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;# EOF #&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/figure&gt;
+
+
+&lt;h2&gt;The Controls&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The left joystick is WASD&lt;/li&gt;
+&lt;li&gt;The right joystick is the view with normal configuration. You can created an
+inverted look by shifting the controls.&lt;/li&gt;
+&lt;li&gt;A is jump&lt;/li&gt;
+&lt;li&gt;B and Right bumper are crouch&lt;/li&gt;
+&lt;li&gt;X is drop&lt;/li&gt;
+&lt;li&gt;Y is talk&lt;/li&gt;
+&lt;li&gt;Right Trigger is break&lt;/li&gt;
+&lt;li&gt;Left Trigger is place&lt;/li&gt;
+&lt;li&gt;Left Bumper shows who is on the server&lt;/li&gt;
+&lt;li&gt;Select shows the menu&lt;/li&gt;
+&lt;li&gt;Start shows inventory&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+  </entry>
   
   <entry>
     <title>Hello World</title>
