@@ -4,7 +4,7 @@
   <title>pspeter3</title>
   <link href="http://pspeter3.github.com/atom.xml" rel="self"/>
   <link href="http://pspeter3.github.com/"/>
-  <updated>2011-09-26T16:29:54-05:00</updated>
+  <updated>2011-09-27T16:32:42-05:00</updated>
   <id>http://pspeter3.github.com/</id>
   <author>
     <name>Phips Peter</name>
@@ -142,6 +142,13 @@ inverted look by shifting the controls.&lt;/li&gt;
 &lt;li&gt;Start shows inventory&lt;/li&gt;
 &lt;/ul&gt;
 
+
+&lt;h2&gt;Starting the controller&lt;/h2&gt;
+
+&lt;p&gt;If you want to turn on the controller easily, place the configuration file in
+the same directory as the minecraft jar launcher and name is
+&lt;code&gt;minecraft.xboxrdv&lt;/code&gt;. Then add this line to your &lt;code&gt;.bashrc&lt;/code&gt; file:
+&lt;code&gt;alias xbox=&#8217;sudo rmmod xpad; sudo xboxdrv -c minecraft.xboxdrv &#8211;silent&#8217;&lt;/code&gt;&lt;/p&gt;
 </content>
   </entry>
   
