@@ -4,13 +4,26 @@
   <title>pspeter3</title>
   <link href="http://pspeter3.github.com/atom.xml" rel="self"/>
   <link href="http://pspeter3.github.com/"/>
-  <updated>2011-09-27T16:32:42-05:00</updated>
+  <updated>2011-09-28T17:52:16-05:00</updated>
   <id>http://pspeter3.github.com/</id>
   <author>
     <name>Phips Peter</name>
     
   </author>
 
+  
+  <entry>
+    <title>Making Github Account Pages and Project Pages Play Nice</title>
+    <link href="http://pspeter3.github.com/blog/2011/09/28/making-github-account-pages-and-project-pages-play-nice/"/>
+    <updated>2011-09-28T17:49:00-05:00</updated>
+    <id>http://pspeter3.github.com/blog/2011/09/28/making-github-account-pages-and-project-pages-play-nice</id>
+    <content type="html">&lt;p&gt;I am a huge fan of github and using them for my projects. Recently, I discovered
+the power of their project pages and have been using them to host my javascript
+based applications, both for code and display. When I launched my Octopress site
+however, my project pages disappeared. In order to make the page come back, all
+I needed to do was make a minor change and force the project page to be rebuilt.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Playing Minecraft With an Xbox360 Controller</title>
