@@ -8,5 +8,5 @@ categories: friend
 
 If you want to find out more tech tips, minecraft awesomeness, and get
 to hear the musings a Mac afficianado, I highly recommend you checking
-out Connor G's blog. You can find his twitter account at `@connor_g`
+out Connor G's blog. You can find his twitter account at @connor_g
 and his blog temporarily at <http://connor-g.tumblr.com/>.
