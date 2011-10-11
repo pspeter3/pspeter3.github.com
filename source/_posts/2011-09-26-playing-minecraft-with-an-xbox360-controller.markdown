@@ -3,14 +3,15 @@ layout: post
 title: "Playing Minecraft With an Xbox360 Controller"
 date: 2011-09-26 12:05
 comments: true
-categories: xbox360, minecraft, ubuntu, elementary
+categories: xbox360 minecraft ubuntu elementary
 ---
 
-So my friend Lorne bought me Minecraft for my birthday. I have a laptop and
-don't own a USB mouse which makes playing slightly difficult. I've never been
-a huge fan of the mouse and keyboard for games, which I know is basically 
-heresy, so I decided to setup my computer to use an Xbox 360 controller. I'm
-running Elementary OS Jupiter which is a derivative of Ubuntu.
+So I got Minecraft for my birthday, which started this whole adventure. 
+I have a laptop and don't own a USB mouse which makes playing slightly 
+difficult. I've never been a huge fan of the mouse and keyboard for games, 
+which I know is basically heresy, so I decided to setup my computer to use 
+an Xbox 360 controller. I'm running Elementary OS Jupiter which is a 
+derivative of Ubuntu.
 
 ## Resources
 
@@ -84,3 +85,10 @@ back  = KEY_ESC
 - Left Bumper shows who is on the server
 - Select shows the menu
 - Start shows inventory
+
+## Starting the controller
+
+If you want to turn on the controller easily, place the configuration file in
+the same directory as the minecraft jar launcher and name is 
+`minecraft.xboxrdv`. Then add this line to your `.bashrc` file:
+`alias xbox='sudo rmmod xpad; sudo xboxdrv -c minecraft.xboxdrv --silent'`
