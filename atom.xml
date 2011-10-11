@@ -4,7 +4,7 @@
   <title>pspeter3</title>
   <link href="http://pspeter3.github.com/atom.xml" rel="self"/>
   <link href="http://pspeter3.github.com/"/>
-  <updated>2011-10-10T22:46:02-05:00</updated>
+  <updated>2011-10-10T22:51:02-05:00</updated>
   <id>http://pspeter3.github.com/</id>
   <author>
     <name>Phips Peter</name>
@@ -19,9 +19,8 @@
     <id>http://pspeter3.github.com/blog/2011/10/10/connor-g</id>
     <content type="html">&lt;p&gt;If you want to find out more tech tips, minecraft awesomeness, and get
 to hear the musings a Mac afficianado, I highly recommend you checking
-out Connor G&amp;#8217;s blog. You can find his twitter account at (@connor_g)
-[http://www.twitter.com/connor_g] and his blog temporarily at
-(http://connor-g.tumblr.com/)[http://connor-g.tumblr.com/&lt;/p&gt;
+out Connor G&amp;#8217;s blog. You can find his twitter account at &lt;code&gt;@connor_g&lt;/code&gt;
+and his blog temporarily at &lt;a href=&quot;http://connor-g.tumblr.com/&quot;&gt;http://connor-g.tumblr.com/&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
   
@@ -31,11 +30,11 @@ out Connor G&amp;#8217;s blog. You can find his twitter account at (@connor_g)
     <updated>2011-10-10T22:37:00-05:00</updated>
     <id>http://pspeter3.github.com/blog/2011/10/10/tomorrow-theme</id>
     <content type="html">&lt;p&gt;Hi, everyone, so I&amp;#8217;m a big fan of Chris Kempson&amp;#8217;s Tomorrow Theme which
-can be found at [https://github.com/ChrisKempson/Tomorrow-Theme]
-(https://github.com/ChrisKempson/Tomorrow-Theme). For a long time there
-was no support for GEdit, the wonderful text editor for gnome. Recently,
-I was made aware of a tool for converting Textmate themes and made a
-pull request. You can now find a GEdit version of the theme in the repo.&lt;/p&gt;
+can be found at &lt;a href=&quot;https://github.com/ChrisKempson/Tomorrow-Theme&quot;&gt;https://github.com/ChrisKempson/Tomorrow-Theme&lt;/a&gt;
+For a long time there was no support for GEdit, the wonderful text editor
+for gnome. Recently, I was made aware of a tool for converting Textmate
+themes and made a pull request. You can now find a GEdit version of the
+theme in the repo.&lt;/p&gt;
 </content>
   </entry>
   
