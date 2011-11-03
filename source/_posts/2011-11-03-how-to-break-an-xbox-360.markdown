@@ -59,3 +59,7 @@ UPS agent had told me, the manager shut me down and was extremely unhelpful.
 
 The moral of the story is don't ship with PostNet. Also, probably don't buy
 insurance on a package because it doesn't help anyway.
+
+### Notes
+
+* I know I should have kept the box, that was definitely a mistake
