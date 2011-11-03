@@ -57,5 +57,5 @@ UPS agent had told me, the manager shut me down and was extremely unhelpful.
 
 ## TL;DR
 
-The moral of the story is don't ship with PostNet. Also, probably don't by
+The moral of the story is don't ship with PostNet. Also, probably don't buy
 insurance on a package because it doesn't help anyway.
