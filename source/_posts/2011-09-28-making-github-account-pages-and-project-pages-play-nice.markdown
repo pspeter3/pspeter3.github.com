@@ -3,7 +3,7 @@ layout: post
 title: "Making Github Account Pages and Project Pages Play Nice"
 date: 2011-09-28 17:49
 comments: true
-categories: github javascript octopress
+categories: [github, javascript, octopress]
 ---
 
 I am a huge fan of github and using them for my projects. Recently, I discovered

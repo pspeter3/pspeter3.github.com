@@ -3,7 +3,7 @@ layout: post
 title: "Playing Minecraft With an Xbox360 Controller"
 date: 2011-09-26 12:05
 comments: true
-categories: xbox360 minecraft ubuntu elementary
+categories: [xbox360, minecraft, ubuntu, elementary]
 ---
 
 So I got Minecraft for my birthday, which started this whole adventure. 
