@@ -4,7 +4,7 @@
   <title>pspeter3</title>
   <link href="http://pspeter3.github.com/atom.xml" rel="self"/>
   <link href="http://pspeter3.github.com/"/>
-  <updated>2012-01-10T13:54:24-05:00</updated>
+  <updated>2012-01-17T11:43:15-06:00</updated>
   <id>http://pspeter3.github.com/</id>
   <author>
     <name>Phips Peter</name>
@@ -13,9 +13,54 @@
 
   
   <entry>
+    <title>Getting More Out of LinkedIn for College Students</title>
+    <link href="http://pspeter3.github.com/blog/2012/01/17/getting-more-out-of-linkedin-for-college-students/"/>
+    <updated>2012-01-17T11:31:00-06:00</updated>
+    <id>http://pspeter3.github.com/blog/2012/01/17/getting-more-out-of-linkedin-for-college-students</id>
+    <content type="html">&lt;p&gt;Recently I&amp;#8217;ve been asked by a lot of my friends at school what value can they
+get from LinkedIn beyond just searching for jobs and connecting with classmates.
+While LinkedIn has a lot of great features, I think three are particularly
+helpful for the average college student.&lt;/p&gt;
+
+&lt;h2&gt;LinkedIn Today&lt;/h2&gt;
+
+&lt;p&gt;LinkedIn Today was released last year and currently sits at the top of everyone&amp;#8217;s
+news feed. The product is basically a customizable smart newspaper for each user
+and allows them to pick industries that they want to be in the know how for.
+Since the top stories are calculated based by shares and reading behaviors of
+professionals in that industry, a student can easily see what news important
+for his or her prospective industry. This can be particularly helpful for making
+sure that he or she is informed before going into an interview.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.linkedin.com/today&quot;&gt;http://www.linkedin.com/today&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Groups&lt;/h2&gt;
+
+&lt;p&gt;A lot of students end up joining university or student activity based groups,
+such as fraternity or sorority. While these groups do have job postings, I think
+a lot of the value of groups comes from interest based groups. There tends to be
+rich discussion there about the topic and provides an opportunity for you get
+more informed but also connect with professionals that you may not have connected
+with before.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.linkedin.com/groupsDirectory&quot;&gt;http://www.linkedin.com/groupsDirectory&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Career Explorer&lt;/h2&gt;
+
+&lt;p&gt;I noticed this tool under the Jobs menu once but it seems to have disappeared
+now. The tool says that it is in Beta so it might not be available to everyone
+but it allows students to plan out their careers one level at a time and see
+average salaries at each level. This is helpful for planning long term and
+deciding between different fields.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.linkedin.com/careerexplorer/dashboard&quot;&gt;http://www.linkedin.com/careerexplorer/dashboard&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
     <title>Fixing SMS Timestamp Issue on Android 2.3</title>
     <link href="http://pspeter3.github.com/blog/2012/01/10/fixing-sms-timestamp-issue-on-android-2-dot-3/"/>
-    <updated>2012-01-10T13:37:00-05:00</updated>
+    <updated>2012-01-10T13:37:00-06:00</updated>
     <id>http://pspeter3.github.com/blog/2012/01/10/fixing-sms-timestamp-issue-on-android-2-dot-3</id>
     <content type="html">&lt;p&gt;I recently installed CyanogenMod 7.1 onto my Samsung Captivate because I was
 getting sick of using the default ROM. One of the things that I noticed was SMS
@@ -43,7 +88,7 @@ so far.&lt;/p&gt;
   <entry>
     <title>How to Break an Xbox 360</title>
     <link href="http://pspeter3.github.com/blog/2011/11/03/how-to-break-an-xbox-360/"/>
-    <updated>2011-11-03T15:30:00-04:00</updated>
+    <updated>2011-11-03T15:30:00-05:00</updated>
     <id>http://pspeter3.github.com/blog/2011/11/03/how-to-break-an-xbox-360</id>
     <content type="html">&lt;p&gt;I lived in NorCal this summer while I had an internship in Silicon Valley. Since
 the company I worked for gave me some money for shipping, I shipped some of my
@@ -111,7 +156,7 @@ insurance on a package because it doesn&amp;#8217;t help anyway.&lt;/p&gt;
   <entry>
     <title>Connor G.</title>
     <link href="http://pspeter3.github.com/blog/2011/10/10/connor-g/"/>
-    <updated>2011-10-10T22:42:00-04:00</updated>
+    <updated>2011-10-10T22:42:00-05:00</updated>
     <id>http://pspeter3.github.com/blog/2011/10/10/connor-g</id>
     <content type="html">&lt;p&gt;If you want to find out more tech tips, minecraft awesomeness, and get
 to hear the musings a Mac afficianado, I highly recommend you checking
@@ -123,7 +168,7 @@ and his blog temporarily at &lt;a href=&quot;http://connor-g.tumblr.com/&quot;&g
   <entry>
     <title>Tomorrow Theme</title>
     <link href="http://pspeter3.github.com/blog/2011/10/10/tomorrow-theme/"/>
-    <updated>2011-10-10T22:37:00-04:00</updated>
+    <updated>2011-10-10T22:37:00-05:00</updated>
     <id>http://pspeter3.github.com/blog/2011/10/10/tomorrow-theme</id>
     <content type="html">&lt;p&gt;Hi, everyone, so I&amp;#8217;m a big fan of Chris Kempson&amp;#8217;s Tomorrow Theme which
 can be found at &lt;a href=&quot;https://github.com/ChrisKempson/Tomorrow-Theme&quot;&gt;https://github.com/ChrisKempson/Tomorrow-Theme&lt;/a&gt;
@@ -137,7 +182,7 @@ theme in the repo.&lt;/p&gt;
   <entry>
     <title>Making Github Account Pages and Project Pages Play Nice</title>
     <link href="http://pspeter3.github.com/blog/2011/09/28/making-github-account-pages-and-project-pages-play-nice/"/>
-    <updated>2011-09-28T17:49:00-04:00</updated>
+    <updated>2011-09-28T17:49:00-05:00</updated>
     <id>http://pspeter3.github.com/blog/2011/09/28/making-github-account-pages-and-project-pages-play-nice</id>
     <content type="html">&lt;p&gt;I am a huge fan of github and using them for my projects. Recently, I discovered
 the power of their project pages and have been using them to host my javascript
@@ -152,7 +197,7 @@ helps.&lt;/p&gt;
   <entry>
     <title>Playing Minecraft With an Xbox360 Controller</title>
     <link href="http://pspeter3.github.com/blog/2011/09/26/playing-minecraft-with-an-xbox360-controller/"/>
-    <updated>2011-09-26T12:05:00-04:00</updated>
+    <updated>2011-09-26T12:05:00-05:00</updated>
     <id>http://pspeter3.github.com/blog/2011/09/26/playing-minecraft-with-an-xbox360-controller</id>
     <content type="html">&lt;p&gt;So I got Minecraft for my birthday, which started this whole adventure.
 I have a laptop and don&amp;#8217;t own a USB mouse which makes playing slightly
@@ -292,7 +337,7 @@ the same directory as the minecraft jar launcher and name is
   <entry>
     <title>Hello World</title>
     <link href="http://pspeter3.github.com/blog/2011/09/26/hello-world/"/>
-    <updated>2011-09-26T12:01:00-04:00</updated>
+    <updated>2011-09-26T12:01:00-05:00</updated>
     <id>http://pspeter3.github.com/blog/2011/09/26/hello-world</id>
     <content type="html">&lt;p&gt;I figured starting with a Hello World post seemed fitting since I&amp;#8217;m using
 Octopress to blog this.&lt;/p&gt;
