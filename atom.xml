@@ -4,13 +4,41 @@
   <title>pspeter3</title>
   <link href="http://pspeter3.github.com/atom.xml" rel="self"/>
   <link href="http://pspeter3.github.com/"/>
-  <updated>2012-02-01T10:28:32-06:00</updated>
+  <updated>2012-02-07T12:49:57-06:00</updated>
   <id>http://pspeter3.github.com/</id>
   <author>
     <name>Phips Peter</name>
     
   </author>
 
+  
+  <entry>
+    <title>Hello Wunderkit</title>
+    <link href="http://pspeter3.github.com/blog/2012/02/07/hello-wunderkit/"/>
+    <updated>2012-02-07T12:42:00-06:00</updated>
+    <id>http://pspeter3.github.com/blog/2012/02/07/hello-wunderkit</id>
+    <content type="html">&lt;p&gt;Last week I wrote a &lt;a href=&quot;http://pspeter3.github.com/blog/2012/02/01/comparisons-of-task-managers/&quot;&gt;comparison of various task managers&lt;/a&gt;,
+and talked about how I wanted to look more into &lt;a href=&quot;http://www.wunderkit.com/&quot;&gt;Wunderkit&lt;/a&gt;.
+Last night I finally had the opportunity to delve more into it and I have officially
+switched to it. The app is just awesome.&lt;/p&gt;
+
+&lt;h2&gt;Criteria&lt;/h2&gt;
+
+&lt;p&gt;When looking for a task manager, I have several criteria that are ideal&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Due Dates (For a long time Google Tasks didn&amp;#8217;t have these)&lt;/li&gt;
+&lt;li&gt;Contexts / Workspaces&lt;/li&gt;
+&lt;li&gt;Repeating Tasks (otherwise I forget to change my contacts)&lt;/li&gt;
+&lt;li&gt;Mobile Apps&lt;/li&gt;
+&lt;li&gt;Tagging&lt;/li&gt;
+&lt;li&gt;Collaborative Workspaces&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Wunderkit meets all of them.&lt;/strong&gt;&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Comparisons of Task Managers</title>
