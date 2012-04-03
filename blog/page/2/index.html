@@ -9,7 +9,7 @@
   <meta name="author" content="Phips Peter">
 
   
-  <meta name="description" content="I figured starting with a Hello World post seemed fitting since I&#8217;m usingOctopress to blog this.">
+  <meta name="description" content="So I got Minecraft for my birthday, which started this whole adventure.I have a laptop and don&#8217;t own a USB mouse which makes playing slightly...">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -64,6 +64,171 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2011/09/26/playing-minecraft-with-an-xbox360-controller/">Playing Minecraft With an Xbox360 Controller</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-26T12:05:00-05:00" pubdate  data-updated="true" >Sep 26<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>So I got Minecraft for my birthday, which started this whole adventure.
+I have a laptop and don&#8217;t own a USB mouse which makes playing slightly
+difficult. I&#8217;ve never been a huge fan of the mouse and keyboard for games,
+which I know is basically heresy, so I decided to setup my computer to use
+an Xbox 360 controller. I&#8217;m running Elementary OS Jupiter which is a
+derivative of Ubuntu.</p>
+
+<h2>Resources</h2>
+
+<p>In order to make this work, you&#8217;ll need a few things:</p>
+
+<ul>
+<li>An official USB Xbox 360 controller. Now I&#8217;m not sure if you absolutely need
+an official Xbox 360 controller but I&#8217;ve had issues in the past with 3rd
+party controllers so I would highly recommend it.</li>
+<li>Xboxdrv, <a href="http://pingus.seul.org/~grumbel/xboxdrv/xboxdrv.html">http://pingus.seul.org/~grumbel/xboxdrv/xboxdrv.html</a></li>
+<li>An Xboxdrv configuration file, conveniently displayed below</li>
+</ul>
+
+
+<h2>Minecraft.xboxdrv</h2>
+
+<p>The following xboxdrv file will set up your Xbox controller</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>[xboxdrv]
+</span><span class='line'>ui-clear=true
+</span><span class='line'>trigger-as-button = true
+</span><span class='line'>
+</span><span class='line'>[ui-axismap]
+</span><span class='line'>x1=KEY_A:KEY_D
+</span><span class='line'>y1=KEY_W:KEY_S
+</span><span class='line'>x2^dead:4000 = REL_X:750:-1
+</span><span class='line'>y2^dead:4000 = REL_Y:750:-1
+</span><span class='line'>
+</span><span class='line'># trigger^invert = rel-repeat:REL_WHEEL:1:50
+</span><span class='line'>
+</span><span class='line'>[ui-buttonmap]
+</span><span class='line'>a = KEY_SPACE
+</span><span class='line'>b = KEY_LEFTSHIFT
+</span><span class='line'>x = KEY_Q
+</span><span class='line'>y = KEY_T
+</span><span class='line'>lt = BTN_RIGHT
+</span><span class='line'>rt = BTN_LEFT
+</span><span class='line'>
+</span><span class='line'>rb = KEY_LEFTSHIFT
+</span><span class='line'>lb = KEY_TAB
+</span><span class='line'>
+</span><span class='line'># tl = KEY_BACKSPACE
+</span><span class='line'># tr = KEY_SPACE
+</span><span class='line'>
+</span><span class='line'>[ui-buttonmap]
+</span><span class='line'>du = rel:REL_WHEEL:-1:500
+</span><span class='line'>dr = rel:REL_WHEEL:-1:500
+</span><span class='line'>dd = rel:REL_WHEEL:1:500
+</span><span class='line'>dl = rel:REL_WHEEL:1:500
+</span><span class='line'>
+</span><span class='line'># lt = KEY_VOLUMEDOWN
+</span><span class='line'># rt = KEY_VOLUMEUP
+</span><span class='line'>
+</span><span class='line'>[ui-buttonmap]
+</span><span class='line'>start = KEY_E
+</span><span class='line'>back  = KEY_ESC
+</span><span class='line'># guide = KEY_ESC
+</span><span class='line'>
+</span><span class='line'># EOF #</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>The Controls</h2>
+
+<ul>
+<li>The left joystick is WASD</li>
+<li>The right joystick is the view with normal configuration. You can created an
+inverted look by shifting the controls.</li>
+<li>A is jump</li>
+<li>B and Right bumper are crouch</li>
+<li>X is drop</li>
+<li>Y is talk</li>
+<li>Right Trigger is break</li>
+<li>Left Trigger is place</li>
+<li>Left Bumper shows who is on the server</li>
+<li>Select shows the menu</li>
+<li>Start shows inventory</li>
+</ul>
+
+
+<h2>Starting the controller</h2>
+
+<p>If you want to turn on the controller easily, place the configuration file in
+the same directory as the minecraft jar launcher and name is
+<code>minecraft.xboxrdv</code>. Then add this line to your <code>.bashrc</code> file:
+<code>alias xbox='sudo rmmod xpad; sudo xboxdrv -c minecraft.xboxdrv --silent'</code></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2011/09/26/hello-world/">Hello World</a></h1>
     
     
@@ -111,6 +276,10 @@ Octopress to blog this.</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2012/04/02/the-death-of-alchemr/">The Death of Alchemr</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/02/07/hello-wunderkit/">Hello Wunderkit</a>
       </li>
     
@@ -124,10 +293,6 @@ Octopress to blog this.</p>
     
       <li class="post">
         <a href="/blog/2012/01/17/getting-more-out-of-linkedin-for-college-students/">Getting More Out of LinkedIn for College Students</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/01/10/fixing-sms-timestamp-issue-on-android-2-dot-3/">Fixing SMS Timestamp Issue on Android 2.3</a>
       </li>
     
   </ul>
