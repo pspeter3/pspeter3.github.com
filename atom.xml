@@ -4,13 +4,39 @@
   <title>pspeter3</title>
   <link href="http://pspeter3.github.com/atom.xml" rel="self"/>
   <link href="http://pspeter3.github.com/"/>
-  <updated>2012-04-02T21:07:58-05:00</updated>
+  <updated>2012-04-11T14:17:25-05:00</updated>
   <id>http://pspeter3.github.com/</id>
   <author>
     <name>Phips Peter</name>
     
   </author>
 
+  
+  <entry>
+    <title>Google+: Community Network?</title>
+    <link href="http://pspeter3.github.com/blog/2012/04/11/google-plus-community-network/"/>
+    <updated>2012-04-11T14:11:00-05:00</updated>
+    <id>http://pspeter3.github.com/blog/2012/04/11/google-plus-community-network</id>
+    <content type="html">&lt;p&gt;With the new Google+ Redesign today, I&amp;#8217;ve been thinking about what the role of
+Google+ is within the context of other websites. Facebook is my social network,
+LinkedIn is my professional network and Twitter is my information network, so
+where does Google+ fit in? I&amp;#8217;ve started to realize that I&amp;#8217;ve been using Google+
+to connect with communities. The main reason I check it is to see posts about
+elementary OS, CyanogenMod and a few other projects which use the network to
+talk to fans and alert them about updates. On a smaller scale, I&amp;#8217;ve been using
+the circles to control where I share information and essentially treating it as
+a nicer form of email.&lt;/p&gt;
+
+&lt;p&gt;I think Google+ has a chance to be the community network, where people can
+discuss and collaborate, especially through the hangout feature. This puts
+Google+ less in competition with Facebook, Twitter and LinkedIn, and more in
+competition with Reddit where users already get news and discuss things about
+certain topics.&lt;/p&gt;
+
+&lt;p&gt;TL;DR I think comparing Google+ to Reddit is more fitting than comparing it to
+Twitter or Facebook.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>The Death of Alchemr</title>
@@ -24,7 +50,7 @@ consumer surveys. We had some small websites interested and were getting close
 to finishing. Unfortunately, Google came out with &lt;a href=&quot;http://www.google.com/insights/consumersurveys/home&quot;&gt;Google Consumer Surveys&lt;/a&gt;
 which does the same exact thing and even had the same pricing structure we were
 offering. Since our biggest issue was getting websites and business to accept
-a new company like Alchemr, competiting with Google seemed unwise. While it is
+a new company like Alchemr, competing with Google seemed unwise. While it is
 sad to give up on something so close to completion, I learned a lot during the
 process and am glad to have had an idea that Google thought was good. The code
 is now open source and can be viewed at &lt;a href=&quot;https://github.com/pspeter3/alchemr&quot;&gt;https://github.com/pspeter3/alchemr&lt;/a&gt;.&lt;/p&gt;
