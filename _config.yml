@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://pspeter3.github.com
+url: http://pspeter3.github.io
 title: pspeter3
 subtitle: 
 author: Phips Peter
@@ -73,7 +73,7 @@ twitter_user: pspeter3
 twitter_tweet_button: true
 
 # Google +1
-google_plus_one: true
+google_plus_one: trueg
 google_plus_one_size: medium
 
 # Google Plus Profile
